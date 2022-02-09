@@ -13,12 +13,12 @@ pipeline{
             }
         }
 
-        stage("Run UNIT-Tests"){
-            steps{
-                echo "Runnning Unit Tests"
-                sh "mvn test"
-            }
-        }
+        // stage("Run UNIT-Tests"){
+        //     steps{
+        //         echo "Runnning Unit Tests"
+        //         sh "mvn test"
+        //     }
+        // }
 
         stage("Static Code Analysis"){
             steps{
